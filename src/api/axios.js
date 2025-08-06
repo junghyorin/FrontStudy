@@ -5,7 +5,7 @@ console.log("[debug] >>> ref env : " , url);
 
 const api = axios.create({
     baseURL : url,
-    withCredentials : false 
+    withCredentials : true 
 });
 
 export default api ; 
